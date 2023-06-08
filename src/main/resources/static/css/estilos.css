@@ -1,0 +1,57 @@
+h1,h2{
+    text-align: center;
+}
+
+h1{
+    background-color: black;
+    color: white;
+}
+
+h2{
+    background-color: #024070;
+    color: yellow;
+}
+
+thead tr {
+    font-size: 18px;
+    margin: 0 10px;
+    line-height: 50px;
+    background-color: #024070;
+    color: white;
+    font-style: italic;
+}
+
+tbody tr:nth-child(even) {
+    font-size: 18px;
+    margin: 0 10px;
+    line-height: 50px;
+    background-color: darkslategray;
+    color: white;
+    font-style: italic;
+}
+
+tbody tr:nth-child(odd) {
+    font-size: 18px;
+    margin: 0 10px;
+    line-height: 50px;
+    background-color: darkkhaki;
+    font-style: italic;
+}
+
+section.iframe {
+    text-align: center;
+    background-color: black;
+
+}
+
+body {
+    background-color: grey;
+}
+
+table.t {
+    width: 80%;
+    height: 550px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
